@@ -180,22 +180,22 @@ Actually, it is an abondant phenomena that materials (the of making of any objec
 In most of cases, the EM wave we are dealing with is a mixture of monochramatic waves. In fact, all physically relevant waves can be expressed as a superposition of monochratic plane waves. An EM monochromatic plane wave formally reads as a pair of electric and  magnetic field
 
 $$
-\bm{E}(\bm{r},t)=\bm{E}_{\bm{k}}\cdot \cos(\bm{k}\cdot\bm{r}-\omega t + \phi)\quad\text{and}\quad\bm{B}(\bm{r},t)=\bm{B}_{\bm{k}}\cdot \cos(\bm{k}\cdot\bm{r}-\omega t + \phi)
+\mathbf{E}(\mathbf{r},t)=\mathbf{E}_{\mathbf{k}}\cdot \cos(\mathbf{k}\cdot\mathbf{r}-\omega t + \phi)\quad\text{and}\quad\mathbf{B}(\mathbf{r},t)=\mathbf{B}_{\mathbf{k}}\cdot \cos(\mathbf{k}\cdot\mathbf{r}-\omega t + \phi)
 $$
 
-where the wave vector $\bm{k}$ and the angular frequency $\omega$ statisfy the dispersion relation $\omega/|\bm{k}| = c$ ($c$ being the speed of light), and the $\bm{k}$  dependent vectorial amplitudes obey
+where the wave vector $\mathbf{k}$ and the angular frequency $\omega$ statisfy the dispersion relation $\omega/|\mathbf{k}| = c$ ($c$ being the speed of light), and the $\mathbf{k}$  dependent vectorial amplitudes obey
 
 $$
-\bm{B}_{\bm{k}} = \frac{1}{c}\hat{\bm{k}} \times \bm{E}_{\bm{k}} \quad\text{with}\quad \hat{\bm{k}} \equiv \frac{\bm{k}}{|\bm{k}|} \quad \text{the unitary vector and }\quad\bm{k}\cdot\bm{E}_{\bm{k}} = 0
+\mathbf{B}_{\mathbf{k}} = \frac{1}{c}\hat{\mathbf{k}} \times \mathbf{E}_{\mathbf{k}} \quad\text{with}\quad \hat{\mathbf{k}} \equiv \frac{\mathbf{k}}{|\mathbf{k}|} \quad \text{the unitary vector and }\quad\mathbf{k}\cdot\mathbf{E}_{\mathbf{k}} = 0
 $$
 
 Letting $\lambda$ and $\nu$ be the wavelength and the frequency, we also have
 
 $$
-|\bm{k}|\equiv \frac{2\pi}{\lambda} \quad \text{and} \quad \omega \equiv 2\pi\nu
+|\mathbf{k}|\equiv \frac{2\pi}{\lambda} \quad \text{and} \quad \omega \equiv 2\pi\nu
 $$
 
-The unitary wave vector $\hat{\bm{k}}$ represents the direction of propagation along which equal phase planes travel, as can be seen by setting the total phase $\bm{k}\cdot\bm{r}-\omega t + \phi$ to some constante.
+The unitary wave vector $\hat{\mathbf{k}}$ represents the direction of propagation along which equal phase planes travel, as can be seen by setting the total phase $\mathbf{k}\cdot\mathbf{r}-\omega t + \phi$ to some constante.
 
 > **Electromagnetic spectrum** - The classification of electromagnetic waves according to the wavelength (or frequency)
 >
@@ -212,65 +212,65 @@ XXXX
 
 ### Poynting vector & Energy flux
 
-For an arbitrary EM wave, i.e. a pair of space-time dependent electric and magnetic field $(\bm{E}(\bm{r},t), \; \bm{B}(\bm{r}, t))$, the energy flux at $(\bm{r},t)$ is described by the Poynting vector defined by
+For an arbitrary EM wave, i.e. a pair of space-time dependent electric and magnetic field $(\mathbf{E}(\mathbf{r},t), \; \mathbf{B}(\mathbf{r}, t))$, the energy flux at $(\mathbf{r},t)$ is described by the Poynting vector defined by
 
 $$
-\bm{S}(\bm{r}, t) \equiv \frac{1}{\mu_0} \bm{E}(\bm{r}, t)\times \bm{B}(\bm{r}, t)
+\mathbf{S}(\mathbf{r}, t) \equiv \frac{1}{\mu_0} \mathbf{E}(\mathbf{r}, t)\times \mathbf{B}(\mathbf{r}, t)
 $$
 
-where $\mu_0$ is the magnetic permeability in the vacuum for simplifying our dicussion. Poynting vector represents along which direction the energy flows at which rate (i.e. per time) per unity of perpendicular area, with a dimension $\text{J}(\text{s}\cdot \text{m}^2)^{-1}$. For example, for an elementary area $dA$ facing direction $\hat{\bm{n}}$ sitting at position $\bm{r}$ and moment $t$, the energy passed that area during a time $dt$ is given by
+where $\mu_0$ is the magnetic permeability in the vacuum for simplifying our dicussion. Poynting vector represents along which direction the energy flows at which rate (i.e. per time) per unity of perpendicular area, with a dimension $\text{J}(\text{s}\cdot \text{m}^2)^{-1}$. For example, for an elementary area $dA$ facing direction $\hat{\mathbf{n}}$ sitting at position $\mathbf{r}$ and moment $t$, the energy passed that area during a time $dt$ is given by
 
-$$dE(\bm{r}, t)= dt dA\hat{\bm{n}}\cdot \bm{S}(\bm{r},t)  $$
+$$dE(\mathbf{r}, t)= dt dA\hat{\mathbf{n}}\cdot \mathbf{S}(\mathbf{r},t)  $$
 
-Consider an example of EM wave composed by three monochromatic plane waves of wave vector $\bm{k}_1$, $\bm{k}_2$ and $\bm{k}_3$, namely
+Consider an example of EM wave composed by three monochromatic plane waves of wave vector $\mathbf{k}_1$, $\mathbf{k}_2$ and $\mathbf{k}_3$, namely
 
 $$
 \begin{align}
-\bm{E}(\bm{r}, t) &= \bm{E}_{\bm{k}_1}\cos(\bm{k}_1\cdot\bm{r}-\omega_1t)+\bm{E}_{\bm{k}_2}
-\cos(\bm{k}_2\cdot\bm{r}-\omega_2t) +\bm{E}_{\bm{k}_3}
-\cos(\bm{k}_3\cdot\bm{r}-\omega_3t) \nonumber \\
-\bm{B}(\bm{r}, t) &= \bm{B}_{\bm{k}_1}\cos(\bm{k}_1\cdot\bm{r}-\omega_1t)+\bm{B}_{\bm{k}_2}\cos(\bm{k}_2\cdot\bm{r}-\omega_2t) +\bm{B}_{\bm{k}_3}
-\cos(\bm{k}_3\cdot\bm{r}-\omega_3t)
+\mathbf{E}(\mathbf{r}, t) &= \mathbf{E}_{\mathbf{k}_1}\cos(\mathbf{k}_1\cdot\mathbf{r}-\omega_1t)+\mathbf{E}_{\mathbf{k}_2}
+\cos(\mathbf{k}_2\cdot\mathbf{r}-\omega_2t) +\mathbf{E}_{\mathbf{k}_3}
+\cos(\mathbf{k}_3\cdot\mathbf{r}-\omega_3t) \nonumber \\
+\mathbf{B}(\mathbf{r}, t) &= \mathbf{B}_{\mathbf{k}_1}\cos(\mathbf{k}_1\cdot\mathbf{r}-\omega_1t)+\mathbf{B}_{\mathbf{k}_2}\cos(\mathbf{k}_2\cdot\mathbf{r}-\omega_2t) +\mathbf{B}_{\mathbf{k}_3}
+\cos(\mathbf{k}_3\cdot\mathbf{r}-\omega_3t)
 \end{align}
 $$
 
-where $\hat{\bm{n}}\equiv\hat{\bm{k}}_1 = \hat{\bm{k}}_2$ and $|\bm{k}_1|\neq|\bm{k}_2|$. That is, monochromatic wave 1 and 2 propagate in the same direction $\hat{\bm{n}}$ with different wavelengths (or frequencies) and wave 3 is an arbitrary monochromatic wave propagating in a different direction $\hat{\bm{n}}'\equiv \hat{\bm{k}}_3$ with another different wavelength (or frequency).
+where $\hat{\mathbf{n}}\equiv\hat{\mathbf{k}}_1 = \hat{\mathbf{k}}_2$ and $|\mathbf{k}_1|\neq|\mathbf{k}_2|$. That is, monochromatic wave 1 and 2 propagate in the same direction $\hat{\mathbf{n}}$ with different wavelengths (or frequencies) and wave 3 is an arbitrary monochromatic wave propagating in a different direction $\hat{\mathbf{n}}'\equiv \hat{\mathbf{k}}_3$ with another different wavelength (or frequency).
 
-Applying the definition of Poynting and the relation between $\bm{E}_{\bm{k}}$ and $\bm{B}_{\bm{k}}$, one obtains the energy flux averaged over time
+Applying the definition of Poynting and the relation between $\mathbf{E}_{\mathbf{k}}$ and $\mathbf{B}_{\mathbf{k}}$, one obtains the energy flux averaged over time
 
 $$
-\langle\bm{S}\rangle(\bm{r}) = \frac{1}{2\mu_0c} |\bm{E}_{\bm{k}_1}|^2\hat{\bm{k}}_1 + \frac{1}{2\mu_0c} |\bm{E}_{\bm{k}_2}|^2\hat{\bm{k}}_2 + \frac{1}{2\mu_0c} |\bm{E}_{\bm{k}_3}|^2\hat{\bm{k}}_3
+\langle\mathbf{S}\rangle(\mathbf{r}) = \frac{1}{2\mu_0c} |\mathbf{E}_{\mathbf{k}_1}|^2\hat{\mathbf{k}}_1 + \frac{1}{2\mu_0c} |\mathbf{E}_{\mathbf{k}_2}|^2\hat{\mathbf{k}}_2 + \frac{1}{2\mu_0c} |\mathbf{E}_{\mathbf{k}_3}|^2\hat{\mathbf{k}}_3
 $$
 
 > **About the average** - In fact, the EM wave emitted by certain object at some temperature $T$ is a mixture of a monochromatic waves of all kinds, such as wavelength, direction, phase off-set, and polarisation. To describe the energy flux at a macroscpic level, one shall perform not only an average over microscopic time, i.e. the time scale of typical EM wave period, but also an average over thermal fluctuations due to a finite temperature $T$. We are here taking a simple example, which necessites only the time average, to illustrate the idea that the energy flux of a EM wave is summed over contributions from plane waves of different wavelength and directions. Note also the time scale of typical EM wave period is $T=\lambda/c$, which even for radio waves is extremely small.
 
-In the above example, it is clear that the total energy flux is composed by three energy flux contributions. $\bm{S}_1\equiv \frac{1}{2\mu_0 c}|E_{k_1}|^2 \hat{\bm{k}}_1$ represents the energy flux component in the direction $\hat{\bm{n}}$ from the frequency $\nu_1$ (or wavelength $\lambda_1$), and $\bm{S}_2\equiv \frac{1}{2\mu_0 c}|E_{k_2}|^2 \hat{\bm{k}}_2$ represents the component in the same direction $\hat{\bm{n}}$ but from a different frequency $\nu_2$. Finally $\bm{S}_3\equiv \frac{1}{2\mu_0 c}|E_{k_3}|^2 \hat{\bm{k}}_3$ represents the energy flux contribution yet in another direction $\hat{\bm{n}}'$ and another frequency $\nu_3$.
+In the above example, it is clear that the total energy flux is composed by three energy flux contributions. $\mathbf{S}_1\equiv \frac{1}{2\mu_0 c}|E_{k_1}|^2 \hat{\mathbf{k}}_1$ represents the energy flux component in the direction $\hat{\mathbf{n}}$ from the frequency $\nu_1$ (or wavelength $\lambda_1$), and $\mathbf{S}_2\equiv \frac{1}{2\mu_0 c}|E_{k_2}|^2 \hat{\mathbf{k}}_2$ represents the component in the same direction $\hat{\mathbf{n}}$ but from a different frequency $\nu_2$. Finally $\mathbf{S}_3\equiv \frac{1}{2\mu_0 c}|E_{k_3}|^2 \hat{\mathbf{k}}_3$ represents the energy flux contribution yet in another direction $\hat{\mathbf{n}}'$ and another frequency $\nu_3$.
 
 ### Macroscopic energy flux & Specific Intensity
 
 This example actually reveals the general way to describe the macroscopic energy flux due to a mixed EM wave ("macroscopic" referting to being averaged over both microscopic time and themal fluctuations), that is the total energy flux can always written as a sum of contributions from energy flux in each direction and each frequency (or wavelength). As direction, e.g. $(\varphi,\theta)$ in a spherical coordinate, and frequency $\nu$ are both continueous variables, it is rather an integration over solid angle and frequency instead of summation. Hence
 
 $$
-\langle\bm{S}\rangle = \int d\Omega\int_0^\infty d\nu  I(\nu, \hat{\bm{n}})\hat{\bm{n}}
+\langle\mathbf{S}\rangle = \int d\Omega\int_0^\infty d\nu  I(\nu, \hat{\mathbf{n}})\hat{\mathbf{n}}
 $$
 
-where $I(\nu, \hat{\bm{n}})$ is called **specific intensity** quantifying the energy flux contribution from frequency $\nu$ per $d\nu$ in the direction $\hat{\bm{n}}$ per element of solid angle $d\Omega$. In a spherical coordinate, we have $d\Omega(\varphi, \theta)=d\varphi d\theta \sin\theta$ and $\hat{\bm{n}}=\sin\theta\cos\varphi\hat{\bm{x}} + \sin\theta\sin\varphi\hat{\bm{y}} + \cos\theta\hat{\bm{z}}$.
+where $I(\nu, \hat{\mathbf{n}})$ is called **specific intensity** quantifying the energy flux contribution from frequency $\nu$ per $d\nu$ in the direction $\hat{\mathbf{n}}$ per element of solid angle $d\Omega$. In a spherical coordinate, we have $d\Omega(\varphi, \theta)=d\varphi d\theta \sin\theta$ and $\hat{\mathbf{n}}=\sin\theta\cos\varphi\hat{\mathbf{x}} + \sin\theta\sin\varphi\hat{\mathbf{y}} + \cos\theta\hat{\mathbf{z}}$.
 
-In principle, the macroscopic energy flux $\langle\bm{S}\rangle$ as well as its components $I(\nu,\hat{\bm{n}})$ is associated with a location $\bm{r}$ and also a "macroscopic" moment $t$, i.e. $\langle\bm{S}\rangle(\bm{r},t)$ and $I(\bm{r},t;\nu,\hat{\bm{n}})$. (A "macroscopic" moment $t$ means that significant variation of the macroscopic energy flux at a given location occurs only for a $\Delta t$ much larger the miscroscopic time scale.) For the time being, let's bear in mind that there is indeed this space-time dependence while dropping them for a lightened notation.
+In principle, the macroscopic energy flux $\langle\mathbf{S}\rangle$ as well as its components $I(\nu,\hat{\mathbf{n}})$ is associated with a location $\mathbf{r}$ and also a "macroscopic" moment $t$, i.e. $\langle\mathbf{S}\rangle(\mathbf{r},t)$ and $I(\mathbf{r},t;\nu,\hat{\mathbf{n}})$. (A "macroscopic" moment $t$ means that significant variation of the macroscopic energy flux at a given location occurs only for a $\Delta t$ much larger the miscroscopic time scale.) For the time being, let's bear in mind that there is indeed this space-time dependence while dropping them for a lightened notation.
 
 #### Isotropic radiation, Spectrometer & Brightness
 
-When thermal radiation is concerned, it is common to have an **isotropic** radiation field, that is the specific intensity does not dependent on the direction, i.e. $I(\nu, \hat{\bm{n}})=I(\nu)$. In this case, we may compute the total energy flux across an elememnt area $dA$ facing $\hat{\bm{n}}_A$ by integrating over half of the entire solid angle "above" the area element while using $\hat{\bm{n}}_A$ as the $\hat{\bm{z}}$ direction to express $d\Omega(\varphi,\theta)$ and $\hat{\bm{n}}(\varphi, \theta)$. We have
+When thermal radiation is concerned, it is common to have an **isotropic** radiation field, that is the specific intensity does not dependent on the direction, i.e. $I(\nu, \hat{\mathbf{n}})=I(\nu)$. In this case, we may compute the total energy flux across an elememnt area $dA$ facing $\hat{\mathbf{n}}_A$ by integrating over half of the entire solid angle "above" the area element while using $\hat{\mathbf{n}}_A$ as the $\hat{\mathbf{z}}$ direction to express $d\Omega(\varphi,\theta)$ and $\hat{\mathbf{n}}(\varphi, \theta)$. We have
 
 $$
 \begin{align}
-dA \cdot S\equiv dA\cdot\hat{\bm{n}}_A\cdot \langle\bm{S}\rangle &= dA\int_0^\infty d\nu I(\nu)\int_0^{2\pi}d\varphi\int_0^{\pi/2} d\theta\sin\theta (\hat{\bm{n}}\cdot\hat{\bm{n}}_A) \nonumber \\
+dA \cdot S\equiv dA\cdot\hat{\mathbf{n}}_A\cdot \langle\mathbf{S}\rangle &= dA\int_0^\infty d\nu I(\nu)\int_0^{2\pi}d\varphi\int_0^{\pi/2} d\theta\sin\theta (\hat{\mathbf{n}}\cdot\hat{\mathbf{n}}_A) \nonumber \\
 &= dA\int_0^\infty d\nu I(\nu)\int_0^{2\pi}d\varphi\int_0^{\pi/2} d\theta\sin\theta \cos \theta \nonumber \\
 &= dA  \int_0^\infty  d\nu F(\nu) \quad \text{with} \quad  F(\nu) \equiv \pi I(\nu)
 \end{align}
 $$
 
-A **spectrometer** detector placed at the position of $dA$ facing $-\hat{\bm{n}}_A$ measuring the spectrum composition of a radiation coming from some source, actually measures the quantity $F(\nu)$ appearing in the above equantion. $F(\nu)$ represents the energy flux contribution from the frequency $\nu$ per $d\nu$ in the entire radiation flux, thus $F(\nu)$ may be called radiation intensity per frequency.
+A **spectrometer** detector placed at the position of $dA$ facing $-\hat{\mathbf{n}}_A$ measuring the spectrum composition of a radiation coming from some source, actually measures the quantity $F(\nu)$ appearing in the above equantion. $F(\nu)$ represents the energy flux contribution from the frequency $\nu$ per $d\nu$ in the entire radiation flux, thus $F(\nu)$ may be called radiation intensity per frequency.
 
 The **brightness** is defined as the total energy flux (i.e. power per area) received by that detector across the entire range of spectrum, which simply is the integration over all frequency, i.e. $B \equiv \int_{\mathbb{R}^+} d\nu F(\nu)$. It is clear and worth emphysizing that if the radiation in question comes from some source, say a star, then the brightness is not a propery of the source since it is related to the location placed the detector.
 
@@ -280,17 +280,17 @@ $$
 P = \int_{\partial V} dA\cdot S
 $$
 
-where $\partial V$ represents the surface of $V$ with normal vectors $\hat{\bm{n}}_A$ pointng outward. Because of **energy conservation**, the radiation power computed along any volum surface should be the same, as far as the source is entirely enclosed in that volume. Hence the radiation power is an intrinsic property of the emission source. When coming to a star, it is called the **luminosity**.
+where $\partial V$ represents the surface of $V$ with normal vectors $\hat{\mathbf{n}}_A$ pointng outward. Because of **energy conservation**, the radiation power computed along any volum surface should be the same, as far as the source is entirely enclosed in that volume. Hence the radiation power is an intrinsic property of the emission source. When coming to a star, it is called the **luminosity**.
 
 # Star Luminosity & Brightness
 
 A star is a source of EM radiation spreading energy into the space.
-The **luminosity**, denoted $L$, of the star is defined as the total power of EM radiation. The energy transport by EM emission of this star can be described using the energy flux field $\langle\bm{S}\rangle$. Details of frequency and directional contributions are for the moment disgarded.
+The **luminosity**, denoted $L$, of the star is defined as the total power of EM radiation. The energy transport by EM emission of this star can be described using the energy flux field $\langle\mathbf{S}\rangle$. Details of frequency and directional contributions are for the moment disgarded.
 
-Consider the star as a perfect sphere of radius $R$ and the EM radiation is isotropic. In this case, the energy flux is always along the outward radial direction $\hat{\bm{r}}$ and its intensity $S(r)$ depends only on the distance $r$ from the star center  with $r\geq R$. Hence
+Consider the star as a perfect sphere of radius $R$ and the EM radiation is isotropic. In this case, the energy flux is always along the outward radial direction $\hat{\mathbf{r}}$ and its intensity $S(r)$ depends only on the distance $r$ from the star center  with $r\geq R$. Hence
 
 $$
-\langle \bm{S} \rangle(\bm{r}) = S(r)\hat{\bm{r}} \quad \text{with} \quad \bm{r} = r\hat{\bm{r}}
+\langle \mathbf{S} \rangle(\mathbf{r}) = S(r)\hat{\mathbf{r}} \quad \text{with} \quad \mathbf{r} = r\hat{\mathbf{r}}
 $$
 
 The luminosity can be computed on the star surface, which leads to
@@ -328,11 +328,11 @@ In this section, we will sketch the derivation of Kirchhoff's theorem of radiati
 
 The theorectical deductions about thermal radiation done by Kirchhoff was based on accumulation of empirical results, which we shall here summarize as "definitions" to perform our own version of the reasoning process.
 
-- For an object held at a temperature $T$, if there is no other source of thermal radiation, the specific intensity $I_e(\nu, \hat{\bm{n}})$ at the surface of the object, by which the object spread out energy, depends only on the temperature $T$ and its material labelled by a letter "$i$". In other words, **the emission spectrum, described by the functional form of $I_e(\nu)$ is completely determined by the type of emitting material and the temperature at which it is emitting**. For simplicity, we shall also neglect the dependence on the direction $\hat{\bm{n}}$ by assuming isotropic symmetry in the object. Therefore, we use $I_e(\nu; T, i)$ for denoting the outward emission intensity spectrum (specific intensity) of some object.
+- For an object held at a temperature $T$, if there is no other source of thermal radiation, the specific intensity $I_e(\nu, \hat{\mathbf{n}})$ at the surface of the object, by which the object spread out energy, depends only on the temperature $T$ and its material labelled by a letter "$i$". In other words, **the emission spectrum, described by the functional form of $I_e(\nu)$ is completely determined by the type of emitting material and the temperature at which it is emitting**. For simplicity, we shall also neglect the dependence on the direction $\hat{\mathbf{n}}$ by assuming isotropic symmetry in the object. Therefore, we use $I_e(\nu; T, i)$ for denoting the outward emission intensity spectrum (specific intensity) of some object.
 
 - We define a **thermalbath of thermal radiation** (of an arbitrary material) such that its temperature is held at $T$ constantly and the only way for energy exchanging with an object put into "contact" is through mutual thermal radiation (inlcuding both emission and absorption). Such an thermalbath can be mentally constructed as a cavity of vacuum (no intermediate substance for thermal conduction or convection), and other objects put inside the cavity are in "contact" with the thermalbath via EM radiation.
 
-- **Equilibrium radiation field** (of a system in contact with a thermalbath at $T$). In the equilibrium state formed by some configuration, such as the material types and positions of a number $n$ objects put in contact with the thermalbath (with $n\geq 0$, yes $0$ included), we may associate for each position a local specific intensity $I_B(\bm{r};\nu, \hat{\bm{n}};T)$ to desribe the radiation field. Since we consider only the equilibrium state, there is no dependence on time $t$. We shall later derive properties of this field $I_B$ required by thermal equilibrium. One property among others is that it does **NOT** depend on the material forming the thermalbath but only the temperature.
+- **Equilibrium radiation field** (of a system in contact with a thermalbath at $T$). In the equilibrium state formed by some configuration, such as the material types and positions of a number $n$ objects put in contact with the thermalbath (with $n\geq 0$, yes $0$ included), we may associate for each position a local specific intensity $I_B(\mathbf{r};\nu, \hat{\mathbf{n}};T)$ to desribe the radiation field. Since we consider only the equilibrium state, there is no dependence on time $t$. We shall later derive properties of this field $I_B$ required by thermal equilibrium. One property among others is that it does **NOT** depend on the material forming the thermalbath but only the temperature.
 
 - An object held at a temperature $T$, absorbes energy via EM radiation from other sources with an **absorption ratio**, denoted $\alpha(\nu;T,i)$, while instantaneously emitting EM radiation with intensity $I_e(\nu;T;i)$. Let the incident radiation specific intensity due to its environment at some location on the object surface be $I_I(\nu)$. For simplicity both incident radiation and the abroption rate are assumed isotropic. **The specific intensity absorbed by the object is determined by the absorption ratio via $I_a(\nu;T,i) = \alpha(\nu; T,i)I_I(\nu)$, and by definition $0\leq\alpha(\nu;T,i)\leq1$**. The absorption ratio thus describes how much percentage of the incident energy at frequency $\nu$ is actually absorbed, and it is also an instrinsic property of material "$i$" at temperature $T$. The incidient emssion non-aborbed, i.e. the $1-\alpha$ part, is either scattered or transmitted.
 
@@ -359,7 +359,7 @@ Before diving into the its derivation, we directly give the statement of Kirchho
   A second consequece from the Kirchhoff's theorem is that
   > **The specific instensity of radiation at the surface of any objects is upper bounded by the black-body radiation intensity $B_\nu$**, since $I_e(\nu;T,i) = \alpha(\nu; T,i) B_\nu(\nu,T)$ and $0\leq\alpha(\nu;T,i)\leq1$.
 
-- The equilibrium radiation field $I_B(\bm{r}; \nu, \hat{\bm{n}}; T)$ in arbitrary thermal equilibrium configuration (as described in the "definitions"), is universally the specific intensity of black-body radiation. That is, equilibrium radiation field is **homogenous** and **isotropic**, i.e. $I_B(\bm{r}; \nu, \hat{\bm{n}}; T)\equiv I_B(\nu, T)$, and identically
+- The equilibrium radiation field $I_B(\mathbf{r}; \nu, \hat{\mathbf{n}}; T)$ in arbitrary thermal equilibrium configuration (as described in the "definitions"), is universally the specific intensity of black-body radiation. That is, equilibrium radiation field is **homogenous** and **isotropic**, i.e. $I_B(\mathbf{r}; \nu, \hat{\mathbf{n}}; T)\equiv I_B(\nu, T)$, and identically
 
   $$
   I_B(\nu,T)=B_\nu(\nu,T)\;.
