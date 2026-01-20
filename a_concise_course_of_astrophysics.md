@@ -1,10 +1,3 @@
----
-title: A concise course of astrophysics
-header-includes:
-  - \usepackage{amsmath}
-  - \newcommand{\bm}[1]{\mathbf{#1}}
----
-
 # Introduction
 
 Astrophysics and cosmology is about understanding celestial objects and the universe in terms of their present state, their diverse features, and evolution from the past to the future. Limited by our physical ability, we can at best deriving knowledge about the physical processes taking place far away and long ago only by applying our most advanced understanding of the law of nature to observations collected near the earth. As a consequence, our fundamental physics and astrophysics modeling are constantly put into test against the lastest data, resulting in either confirmation or rasing chanllenges that pushes forward the frounier of our comprehension of the nature.
