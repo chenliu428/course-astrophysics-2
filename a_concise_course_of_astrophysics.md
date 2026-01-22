@@ -468,6 +468,42 @@ The discrete energy value restriction by Planck comes from no fondations of clas
 
 # Photon & Energy-mass equivalence
 
+In the calculation of Planck to the black-body radiation law, the energy associated to the standing wave of certain frequency $\nu$ is restricted to take discrete values, namely multiples of $h\nu$. Only after the quantum physics was established a few decades after Planck, the physical meaning of $h\nu$ became clear. It is the energy possessed by one **photon** of frequency $\nu$.
+
+**Photon** is the elementary particle consituting EM wave.
+
+## Properties of photon
+
+- Photon has zero mass.
+- Photon travels at the $c$ in the vacuum, universal with respect to all inertial frame of references.
+- Photon possesses a frequency $\nu$, as well as  a wavelength $\lambda$, linked by the dispersion relation $\lambda\nu=c$.
+- Photon possesses an energy determined by $\epsilon _\nu = h\nu$.
+- Photon possesses a momentum determined by $p_\nu = h/\lambda = \epsilon_\nu/c$, along its direction of propagation.
+
+The energy and momentum of photon consituts the microscopic explanation of the energy flux and momentum effect of EM wave.
+
+> The motentum of EM wave from a classical physics perspective can be explained as the following. Taking a monochractic EM wave as an example. Its propation direction is aligned the wave vector. When this EM wave hits some object surface, the charges (electrons and atom nucleus) are pushed by the electric field of incidient EM wave. The charges move in a direction aligned (or opposite, according to sign of charges) to the electric field, which is perpendicular to the direction of the magnetic field. By Lorentz force, these charges are in turn pushed towards the direction of propagation (whether positive or negative charges), hence create a motentum along the direction of EM wave propagation.
+
+## Microscopic expression of energy flux & specific intensity
+
+From the perspective of energetic accounting, the energy flux carried by a progressive EM wave can be viewed as a flux of photons each carrying some energy. Let $n(\nu, \hat{\mathbf{n}})$ denote the number of photons per volume per frequency at $\nu$ and per solid angle pointing the direction of propagation $\hat{\mathbf{n}}$. The energy flux (power per area) due to photon of frequency $d\nu$ around $\nu$ travelling in a direction wihtin an elementary solid angle $d\Omega$ around $\hat{\mathbf{n}}$ is given by
+
+$$
+d\mathbf{S} = d\nu d\Omega\cdot\epsilon_\nu\cdot c\cdot n(\nu,\hat{\mathbf{n}}) \cdot \hat{\mathbf{n}}
+$$
+
+which is indeed the infinitisimal energy flux we mentioned early. This equation allows to identify the microscopic expression of the specific intensity, i.e.
+
+$$
+I(\nu, \hat{\mathbf{n}}) = c \epsilon_\nu n(\nu, \hat{\mathbf{n}}) = ch\nu \cdot n(\nu, \hat{\mathbf{n}})
+$$
+
+## Mass-energy equivalence $E=mc^2$
+
+Admitting the properties of photon mentioned early, and the principle of momentum conservation, one can derive the famous formula of energy-mass equivalence of Einstein, even without the special relativity.
+
+XXX
+
 # Photon material interaction
 
 # Kirchoff's 3 laws of radiation
