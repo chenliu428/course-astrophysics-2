@@ -26,6 +26,15 @@ that will be introduced as needed along the way of presentation.
 
 The mission I take to create this lecture notes is to put basic physics concepts in the context of astrophysics and to plot a not detailled but sensible story of the universe for readers equipped with an essential scientific toolbox to have sipe of the power they dispose when applied to comprehend the universe.
 
+# Overview of Astrophysics & Cosmology
+
+- Application of physics principles to celestial observations
+- Theoretical description of celestial objects (stars, plates, galaxies, cosmos) based on observations.
+- Verification of theoretical description by complementary observation resulting in confirmation and discripancy.
+- Discripancy leads to improving:
+  - Physics
+  - Astrophysics & Cosmological modeling
+
 # Mapping celestial objects
 
 Although We nowadays take the fact that our earth is spinning spherical object circulating around the sun for granted as a common sense knowledge taught since our early ages, it is pretty unobvious for any person to justify this realisation without the background of modern science culture. 
@@ -506,7 +515,18 @@ XXX
 
 # Photon material interaction
 
+## Atomic structure & principle quantum number
+
+Specturm & chemical elements
+
+## Atomic process
+
+Excitation / Absorption
+Relaxation / Emission (Spontaneous & Stimulated)
+
 # Kirchoff's 3 laws of radiation
+
+Atomic process & absorption coefficient
 
 # Deduce star properties from the its "light"
 
