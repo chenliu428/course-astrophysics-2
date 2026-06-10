@@ -515,9 +515,45 @@ XXX
 
 # Photon material interaction
 
+Electromagnetic wave as a primary messeger in astronomical observation carries rich information about the chemical composition of substances in the space, which forms the basis of spectroscopy technics. This is fundamentally due to the physics of the interaction between electromagnetic wave and materials, or more precisesly the interaction between photons and microscopic components (atomes, ions, molecules, etc). 
+
+We shall discuss the simplest example to exhibit the fundamental processes involved in such interactions and thus to illustrate the power of spectroscopic analysis of electromagnetic wave in studying celetial objects.
+
 ## Atomic structure & principle quantum number
 
-Specturm & chemical elements
+Electromagnetic wave interacts with material on a microscopic level, that is beyond the description of classical physics, only accounted by quantum mechanics. We know that materials are composed by microscopic particles such as protons, neutrons, and electrons. Protons and neutrons can also be grouped into nucleus of atoms, which, with electrons, may in turn form molecules or ions. It is the interaction between these systems and photon that constitutes the light-material interaction we are talking about.
+
+Microscopic particles such as atom, ion, molecule are described by the so-called "quantum states". For our purpose to understand the principle of photon-material interaction, one only needs to accept several general conclusions from quantum mechanics:
+
+  - A particle can be in one of countable many quantum states prescripted by quantum mechanics.
+  - Each quantum state is associated with a certain energy level.
+  - There exists a "ground state" which has the lowest energy among all states.
+  - The particle can transit from one state to another interacting with its envirionment:
+    - When transitioning from a lower energy state to a higher energy state, the particle receives energy by either colliding with other particles or absorbing photons.
+    - When transitioning from a higher energy state to a lower energy state, the particle releases energy in the form of photon emission.
+    - The frequency of the photon absorbed or released during a transition between two quantum states of energy difference $\Delta E$ is given by $h\nu=\Delta E$.
+
+To illustrate these ideas, we shall discuss in some details systems composed by a nucleus of certain atomic number $Z$ (i.e. $Z$ protons) and one electron. In this situation the dominant energy contribution comes from the electrostatic interaction, namely the Coulomb force between the nucleus and the electron, and the gravitational energy is ngligible in front of the Coulomb interaction. Also because the nucleus mass is $\sim 10^3$ times larger than the electron mass in orders of magnitude, the presence of one electron has negligible effect on the motion of the nucleus, while the motion of the electron is completely dominated by the nucleus. Hence, the description of the entire nucleus-electron system can be reduced to the description of the one electron in presence of the central electric potential induced by the nucleus considered as immobile. Formally speaking, the quantum state, denoted $\psi$, of the electron in a central potential $V(r)=-\frac{1}{4\pi\epsilon_0}\frac{Ze^2}{r}$ represent entirely the quantum state of nucleus-electron system.
+
+The quantum state $\psi(\rm{r})$ is a complex valued function called wave function, the squared norm of which represents the probability density of presence at position $\rm{r}$ of that electron, therefore, we have the so-called normalisation condition $\int d\rm{r}^3|\psi(\rm{r})|^2=1$. The quantum state $\psi(\rm{r})$ can not be arbitrary function satisfying the normalisation condition. It must be the solution of the Schrodinger's equation, which looks like $$-\frac{\hbar^2}{2m}\nabla^2 \psi (\rm{r})+ V(\rm{r})\psi(\rm{r}) = E\psi(\rm{r})$$ playing the role of Newton's second law in the realm of quantum physics, where $E$ represents the total energy of the system in question to be determined by solving this equation with appropirate boundary continuity conditions.
+
+The resolution of the Schrodinger's equation with appropriate boundary conditions gives rise to a series of countable distinct quantum states, hence discrete or "quantized" energy levels. In our particular case of central Coulumb potential, the resulting quantum states can be labelled by three integers, called "quantum numbers", conventionally denoted $(n,\;l,\; m)$ and the associated quantum state (wave function) may be noted $\psi_{n,l,m}(\rm{r})$.
+
+Not all combination of three integers forms a legit label of the quantum states of the nucleus-electron system. It turns out that:
+
+  - $n$, called the **principle quantum number** can take values of positive intergers, e.g. $1, 2, \ldots$.
+  - For a given $n$, possible $l$ values are $0$, $1$, $\ldots$, $n-1$.
+  - For a given $l$, $m$ may takes values $-l$, $-l+1$, $\ldots$, $l-1$, $l$.
+
+The three integers represent different physical properties of the corresponding quantum state:
+
+  - $n$ encodes the energy level of the system. In other words, the energy associated to a quantum state does not depend on $(l,\;m)$, but $n$, and it is obvious that different quantum state may be associated with the same energy, when they differ only on $l$ or $m$. The energy for a quantum state of prinicple quantum number $n$ is given by $$ E_n = -\left(\frac{e^2}{4\pi\epsilon_0}\right)^2\frac{m_e}{2\hbar^2}\frac{Z^2}{n^2}$$ or more pratically $$E_n \approx -13.6eV\frac{Z^2}{n^2}\;.$$ This expression was firstly derived by Bohr, hence named after him, i.e. Bohr's atomic model.
+- $l$ represents the squared amplitide of the angular momentum.
+- $m$ represents the one directional component of the angular momentum (usually along $z$ axix).
+
+### Electromagnetic spectrum as the finger print of chemical elements
+
+Bohr's model suggests that the ensemble of energy levels is atomic number $Z$ dependent, and each element has its unique energy levels determined by $Z$. To illustrate this, see the Bohr energy spectrum of the first few elements in Fig.XXX. As a consequence, the wave length (or frequency) spectrum of photon absorption / emission of certain element is uniquely determined by the atomic number $Z$, since it comes from all pair combinations of the energy levels. See the emission / absorption spectrum of the corresponding elements in Fig.XXX.
 
 ## Atomic process
 
