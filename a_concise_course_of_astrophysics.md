@@ -547,13 +547,26 @@ Not all combination of three integers forms a legit label of the quantum states 
 
 The three integers represent different physical properties of the corresponding quantum state:
 
-  - $n$ encodes the energy level of the system. In other words, the energy associated to a quantum state does not depend on $(l,\;m)$, but $n$, and it is obvious that different quantum state may be associated with the same energy, when they differ only on $l$ or $m$. The energy for a quantum state of prinicple quantum number $n$ is given by $$ E_n = -\left(\frac{e^2}{4\pi\epsilon_0}\right)^2\frac{m_e}{2\hbar^2}\frac{Z^2}{n^2}$$ or more pratically $$E_n \approx -13.6eV\frac{Z^2}{n^2}\;.$$ This expression was firstly derived by Bohr, hence named after him, i.e. Bohr's atomic model.
+  - The principle quantum number $n$ encodes the energy level of the system. In other words, the energy associated to a quantum state depends only on $n$ not on $(l,\;m)$. It is then obvious that different quantum states may be associated with the same energy, when they share the same $n$ while differ on $l$ or $m$. The energy for a quantum state of prinicple quantum number $n$ is given by $$\begin{align} E_n &= -\left(\frac{e^2}{4\pi\epsilon_0}\right)^2\frac{m_e}{2\hbar^2}\frac{Z^2}{n^2} \nonumber \\ &\approx -13.6eV\frac{Z^2}{n^2}\;.\end{align}$$ where $e$, $\epsilon_0$, $m_e$ represents respectively the elementary charge, the vacuum permittivity and the electron mass. This expression was firstly derived by Bohr, hence named after him, i.e. Bohr's atomic model.
 - $l$ represents the squared amplitide of the angular momentum.
-- $m$ represents the one directional component of the angular momentum (usually along $z$ axix).
+- $m$ represents the one directional component of the angular momentum (usually along $z$ axis).
 
 ### Electromagnetic spectrum as the finger print of chemical elements
 
-Bohr's model suggests that the ensemble of energy levels is atomic number $Z$ dependent, and each element has its unique energy levels determined by $Z$. To illustrate this, see the Bohr energy spectrum of the first few elements in Fig.XXX. As a consequence, the wave length (or frequency) spectrum of photon absorption / emission of certain element is uniquely determined by the atomic number $Z$, since it comes from all pair combinations of the energy levels. See the emission / absorption spectrum of the corresponding elements in Fig.XXX.
+Bohr's model suggests that the ensemble of energy levels is atomic number $Z$ dependent, and each element has its unique series of energy levels determined by $Z$. To illustrate this, see the Bohr energy spectrum of the first few elements in Fig.XXX. 
+
+<div align="center">
+ <img src="./images/BohrEnergy.png" width="600" alt="Centered image">
+ <p><em>Figure 6: Energy levels of hydrogen-like atom for atomic number equal to 1, 2, 3, 4, 5.</em></p>
+</div>
+
+As a consequence, the wave length (or frequency) spectrum of photon absorption / emission of certain element is uniquely determined by the atomic number $Z$, since it comes from all pair combinations of the energy levels. See the emission / absorption spectrum of the corresponding elements in Fig.XXX.
+
+<div align="center">
+ <img src="./images/BohrEmissionSpectrum.png" width="600" alt="Centered image">
+ <p><em>Figure 7: Emission spectrum of hydrogen-like atom for atomic number equal to 1, 2, 3, 4, 5.</em></p>
+</div>
+
 
 ## Atomic process
 
