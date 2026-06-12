@@ -553,20 +553,27 @@ The three integers represent different physical properties of the corresponding 
 
 ### Electromagnetic spectrum as the finger print of chemical elements
 
-Bohr's model suggests that the ensemble of energy levels is atomic number $Z$ dependent, and each element has its unique series of energy levels determined by $Z$. To illustrate this, see the Bohr energy spectrum of the first few elements in Fig.XXX. 
+Bohr's model suggests that the ensemble of energy levels is atomic number $Z$ dependent, and each element has its unique series of energy levels determined by $Z$. To illustrate this, see the Bohr energy spectrum of the first few elements in Fig.6.
 
 <div align="center">
  <img src="./images/BohrEnergy.png" width="600" alt="Centered image">
  <p><em>Figure 6: Energy levels of hydrogen-like atom for atomic number equal to 1, 2, 3, 4, 5.</em></p>
 </div>
 
-As a consequence, the wave length (or frequency) spectrum of photon absorption / emission of certain element is uniquely determined by the atomic number $Z$, since it comes from all pair combinations of the energy levels. See the emission / absorption spectrum of the corresponding elements in Fig.XXX.
+As a consequence, the wave length (or frequency) spectrum of photon absorption / emission of certain element is uniquely determined by the atomic number $Z$. The photon wavelength due to a transition from two energy levels $n$ and $m$ (with $n>m$, emission for transition from $n$ to $m$, and absorption for transition from $m to $n$) for an hydrogen-like ion of atomic number $Z$ is given by
+$$\begin{align}\lambda & = \frac{hc}{E_n-E_m} \nonumber \\
+&\approx \frac{911.6 \AA}{Z^2}\left(\frac{1}{m^2}-\frac{1}{n^2}\right)^{-1}
+\end{align}$$
+where $\AA=10^{-10}m$ is angstrom. We can notice that for a given lower energy level $n$, the largest wavelength is given by the cloest higher level i.e. $n=m+1$, and as the higher energly level increases, the smallest wavelength (i.e. the most energetic phothon) converges to $911.6\AA\frac{m^2}{Z^2}$.
+
+Conventionally, the emission / absorption spectrum is grouped according to the lower energy levels. For example, the series of wavelengths due to a transition between $n>1$ and $m=1$ are called Lyman series, thoses between $n>2$ and $m=2$ called Balmer series, and Paschen series for $n=3$. The emission / absorption spectrums of the same elements in Fig.6 are shown in Fig.7.
 
 <div align="center">
  <img src="./images/BohrEmissionSpectrum.png" width="600" alt="Centered image">
  <p><em>Figure 7: Emission spectrum of hydrogen-like atom for atomic number equal to 1, 2, 3, 4, 5.</em></p>
 </div>
 
+Despite the fact that the emission / absorptin spectrum in Fig.7 only applies to complet ionisation of certain chemical elements, and more complex spectrum should be expected in realistic systems, the idea is however clear that each element has its finger print spectrum on the spectroscopic measurement, and hence by investigating the spectroscopic measurement, one can in principle identify different finger prints and thus the chemical elements existing on the source on which the spectroscopy is performed.
 
 ## Atomic process
 
