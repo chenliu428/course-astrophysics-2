@@ -378,7 +378,27 @@ All kirchhoff's theorem indicates is the existence and the physical meaning of a
 
 ## Derivation
 
-XXX
+The derivation of Kirchhoff's theorem can be constructed rather easily by introducing an tiny "$i$" object into an equilibrium environment "$S$" at the same temperature $T$. For the tiny object, this equilibrium environment plays as a thermal bath at that temperature, and for our purpose to investigate radiation, "$S$" can be designed such that the energy exchange between the object "$i$" and "$S$" can be acheived only by radiaiton. Although the system "$S$" could have more complex structure, for where a tiny object "$i$" can be placed, say a domaine $\mathcal{D}\subset \mathbb{R}^3$, this system "$S$" can be seen as a stationary (i.e. thermal equilibrium) field of thermal radiation, that is a specific intensity $I_S(\lambda;\mathbf{x})$ varying with the spatial position $\mathbf{x}\in \mathcal{D}$. The magic takes place admitting two things:
+
+1. The object "$i$" is so tiny such that its introduction into the "$S$" anywhere in $\mathcal{D}$ does not perturb (or perturb negligibably) the equilibrium state of $S$, specificaly the field $I_S(\lambda;\mathbf{x})$. Also it is so tiny that the field $I_S(\lambda;\mathbf{x})$ across its spatial occupation undergoes negligible variation, which allows us to use simply $I_S(\lambda;\mathbf{x})$ as a uniform radiation field around the object "$i$".
+
+2. Any tiny object "$i$",  no matter its material and geometric shape, placed any where in $\mathcal{D}$, is in direct equilibrium with "$S$", as far as its temperature is at the same $T$. This implies the introduction of "$i$" at $\mathbf{x}$ does not invoke any pure energy transportation between "$i$" and "$S$".
+
+Combining 1 and 2 with the object properties absorption ratio $\alpha_i(\lambda)$ and the emission specifc intensity $I_i(\lambda)$, one deduces the following equality
+$$
+\int d\lambda \pi I_i(\lambda) = \int d\lambda \pi I_S(\lambda;\mathbf{x})\alpha_i(\lambda)
+$$
+for every elementary surface $dA$ on the object $i$.
+
+We further deduce that
+
+1. Since this equality holds for all object $i$ that is tiny, one may put together a series of such equalities with $i=1, 2, \ldots, \infty$ for infinitly many different object, each with  _a priori_ some different $I_i$ and $\alpha_i$, but all with the same $I_S(\lambda;\mathbf{x})$. If one assimilates the integration with a sum over a finite amonut components labeled by $\lambda$, that is there are infinitly many constraints should be satisfied by $I_S$. The only way for this to be true is that the equality hold component by component, i.e. $$ I_i(\lambda) = I_S(\lambda;\mathbf{x})\alpha_i(\lambda)$$ for all $i=1,2,\ldots,\infty$.
+
+2. Hence, the emission over absorption ratio is universal, i.e. $$\exists B(\lambda)\quad \text{s.t.}\quad B(\lambda) = \frac{I_i(\lambda)}{\alpha_i(\lambda)}\quad \forall i$$
+
+3. Since the choice of system $S$ and the location $\mathbf{x}$ are arbitrary, the radiation field (temperature dependent) in an equilibrium system $I_S(\lambda;\mathbf{x})$ is uniform and is universal, that is $$ I_S(\lambda;\mathbf{x}) = B(\lambda)\quad \forall\;(S, \mathbf{x})\;.$$
+
+4. Black-bodies, that is objects fully absorbing thermal radiation ($\alpha_i(\lambda)=1$) emitts this universal specific intensity $B(\lambda)$, the so-called "black-body radiation".
 
 # Black-body radiation
 
@@ -560,11 +580,11 @@ Bohr's model suggests that the ensemble of energy levels is atomic number $Z$ de
  <p><em>Figure 6: Energy levels of hydrogen-like atom for atomic number equal to 1, 2, 3, 4, 5.</em></p>
 </div>
 
-As a consequence, the wave length (or frequency) spectrum of photon absorption / emission of certain element is uniquely determined by the atomic number $Z$. The photon wavelength due to a transition from two energy levels $n$ and $m$ (with $n>m$, emission for transition from $n$ to $m$, and absorption for transition from $m to $n$) for an hydrogen-like ion of atomic number $Z$ is given by
+As a consequence, the wave length (or frequency) spectrum of photon absorption / emission of certain element is uniquely determined by the atomic number $Z$. The photon wavelength due to a transition from two energy levels $n$ and $m$ (with $n>m$, emission for transition from $n$ to $m$, and absorption for transition from $m$ to $n$) for an hydrogen-like ion of atomic number $Z$ is given by
 $$\begin{align}\lambda & = \frac{hc}{E_n-E_m} \nonumber \\
 &\approx \frac{911.6 \AA}{Z^2}\left(\frac{1}{m^2}-\frac{1}{n^2}\right)^{-1}
 \end{align}$$
-where $\AA=10^{-10}m$ is angstrom. We can notice that for a given lower energy level $n$, the largest wavelength is given by the cloest higher level i.e. $n=m+1$, and as the higher energly level increases, the smallest wavelength (i.e. the most energetic phothon) converges to $911.6\AA\frac{m^2}{Z^2}$.
+where $\AA=10^{-10}m$ is angstrom. We can notice that for a given lower energy level $m$, the largest wavelength is given by the cloest higher level i.e. $n=m+1$, and as the higher energly level increases, the smallest wavelength (i.e. the most energetic phothon) converges to $911.6\AA\frac{m^2}{Z^2}$.
 
 Conventionally, the emission / absorption spectrum is grouped according to the lower energy levels. For example, the series of wavelengths due to a transition between $n>1$ and $m=1$ are called Lyman series, thoses between $n>2$ and $m=2$ called Balmer series, and Paschen series for $n=3$. The emission / absorption spectrums of the same elements in Fig.6 are shown in Fig.7.
 
