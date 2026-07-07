@@ -549,24 +549,28 @@ One can set up a thought experiment as shown in Fig.7. The experiment goes like 
 - More rigorously, taking into account of the above thought experiment and defining $\eta\hat{=}\ell/L$, one may establish the following equalities
 
   1. It takes a duration of $\tau$ for photon to travel from the left to the right  
-  $$
-  c\cdot \tau = (1-\eta)L
-  $$
+
+$$
+c\cdot \tau = (1-\eta)L
+$$
 
   2. It takes the same amount of time for the cart to shift $\ell$ with velocity $v$, thus
-  $$
-  v\cdot \tau = \eta L
-  $$
+  
+$$
+v\cdot \tau = \eta L
+$$
 
   3. For the final mass center remaining $X_\text{mc}=0$, one must have
-  $$
-  m\cdot(1-\eta) L = (M-m)\eta L
-  $$
+
+$$
+m\cdot(1-\eta) L = (M-m)\eta L
+$$
 
   4. For the momentum to be conserved
-  $$
-  (M-m)v = P = E/c
-  $$
+  
+$$
+(M-m)v = P = E/c
+$$
 
   Hence we have four equations to solve four unknowns $v$, $\eta$, $m$, $\tau$, among which the mass-energy equivalence equality $m=E/c^2$. The computation details are left as an exercise for the readers.
 
