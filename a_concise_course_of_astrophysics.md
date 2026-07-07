@@ -491,7 +491,7 @@ From a retrospective point of view, the theoretical description of the black-bod
 
 - Since the equilibrium radiation field does not depend on the material nor the geometry, one can use a squared box of perfect conductor (which gives the boundary condidions easy to treat) as a theoretical model of black-body and then to perform the Maxwell-Boltzmann statistics of standing EM waves inside the box at temperature $T$.
 
-Max Planck's invention is the following. Instead of allowing the energy $\epsilon_\nu$ of a standing wave of frequncy $\nu$ to take the classical values, which is a quadratic form in the amplitude $\epsilon_\nu\propto A_\nu^2$ with $A_\nu$ varying from $0$ to $\infty$, Planck restricted the energy $\epsilon_\nu$ to take only descrete values ralated to the standing wave frequency $\nu$. That is $\epsilon_\nu$ is only allowed take values such as $h\nu, 2h\nu, 3h\nu, \ldots$, while maintaining the Boltzmann weight i.e. the probability to have certain energy $\epsilon_\nu$ is proportinal to $\exp(-\epsilon_\nu/k_BT)$. The Planck's constante $h$ was introduced to define the hypothetic unknown consecutive energy gap, and later it became clear that $h\nu$ represents th energy of a photon at frequency $\nu$.
+Max Planck's invention is the following. Instead of allowing the energy $\epsilon_\nu$ of a standing wave of frequncy $\nu$ to take the classical values, which is a quadratic form in the amplitude $\epsilon_\nu\propto A_\nu^2$ with $A_\nu$ varying from $0$ to $\infty$, Planck restricted the energy $\epsilon_\nu$ to take only descrete values ralated to the standing wave frequency $\nu$. That is $\epsilon_\nu$ is only allowed take values such as $h\nu, 2h\nu, 3h\nu, \ldots$, while maintaining the Boltzmann weight i.e. the probability to have certain energy $\epsilon_\nu$ is proportinal to $\exp(-\epsilon_\nu/k_BT)$. The Planck's constante $h$ was introduced to define the hypothetic unknown consecutive energy gap, and later it became clear that $h\nu$ represents th energy of a photon at frequency $\nu$ and thus carries fundamental physical meanings beyond a simple counting scheme.
 
 The discrete energy value restriction by Planck comes from no fondations of classical physics. This operation, although somehow ad-hoc, accidently introduces a different fondation into the calculation, the one from quantum physics.
 
@@ -529,9 +529,34 @@ $$
 
 ## Mass-energy equivalence $E=mc^2$
 
-Admitting the properties of photon mentioned early, and the principle of momentum conservation, one can derive the famous formula of energy-mass equivalence of Einstein, even without the special relativity.
+Admitting the properties of photon mentioned early, and the principle of momentum conservation and mass conservation, one can derive the famous formula of energy-mass equivalence of Einstein, even without the special relativity.
 
-XXX
+<div align="center">
+  <img src="./images/mass-energy-equivalence.png" width="500" alt="Centered image">
+  <p><em>Figure 7</em></p>
+</div>
+
+One can set up a thought experiment as shown in Fig.7. The experiment goes like the following.
+
+- At time $t=0$, a cart is stationary at a position where its left vertical plate is aligned with $x=0$. This cart is a bit special that its right vertical plate, its bottom plate and its wheels are massless, except that it left vertical plate has a mass $M$. Therefore its initial mass center is $X_\text{mc}=0$.
+
+- By some manner (which does not matter for our thought experiment), a photon $\gamma$ is emitted from the left plate travelling horizontally towards the right plate, and gets absorbed by the right plate after some time $\tau$. Since the photon carries a momentum $P=E/c$ (where $E=h\nu$ the photon energy), by momentum conservation, while the photon is travelling to the right, the cart must moves to the left with some velocity $v$, such that the total momentum of the entire system (cart + phton) is remains unchanged.
+
+- Because of the cart moving to the left while the photon flying, by the absorption when $t=\tau$, the cart has been shifted to the left by a distance say $\ell$. Since the entire system is not submitted to any external force (or interaction) during the whole process, the mass center should remain $X_\text{mc}=0$ at $t=\tau$. Then by mass conservation, some mass $m$ on the left plate has to be transported on to the right plate by the photon propagation. This final state is illustrated in the last panel in Fig.7
+
+- Knowing that photon is massless while carrying momentum $P$ and energy $E$ (with $P=E/c$), one deduce from the above considerations the transported mass $m$ and the energy $E$ of the photon are somehow equivalent, and there should be some mathematical relation between them. A short-cut to derive this relation is to admit the mass equivalence $m$ to a photon energy $E$ as a intrinsic property of photon and thus only determined by other intrinsic properties of photon such as its energy, momentum and velocity. Therefore, we may now get rid of the thought experiment and perform pure dimensional analysis of photon intrinsic properties, which leads us to conjecture $E=mc^2$.
+
+- More rigorously, taking into account of the above thought experiment and defining $\eta\hat{=}\ell/L$, one may establish the following equalities
+
+  1. It takes a duration of $\tau$ for photon to travel from the left to the right $$ c\cdot \tau = (1-\eta)L$$
+
+  2. It takes the same amount of time for the cart to shift $\ell$ with velocity $v$, thus $$ v\cdot \tau = \eta L$$ 
+
+  3. For the final mass center remaining $X_\text{mc}=0$, one must have $$ m\cdot(1-\eta) L = (M-m)\eta L $$
+
+  4. For the momentum to be conserved $$ (M-m)v = P = E/c $$
+
+  Hence we have four equations to solve four unknowns $v$, $\eta$, $m$, $\tau$, among which the mass-energy equivalence equality $m=E/c^2$. The computation details are left as an exercise for the readers.
 
 # Photon material interaction
 
@@ -577,7 +602,7 @@ Bohr's model suggests that the ensemble of energy levels is atomic number $Z$ de
 
 <div align="center">
  <img src="./images/BohrEnergy.png" width="600" alt="Centered image">
- <p><em>Figure 6: Energy levels of hydrogen-like atom for atomic number equal to 1, 2, 3, 4, 5.</em></p>
+ <p><em>Figure 8: Energy levels of hydrogen-like atom for atomic number equal to 1, 2, 3, 4, 5.</em></p>
 </div>
 
 As a consequence, the wave length (or frequency) spectrum of photon absorption / emission of certain element is uniquely determined by the atomic number $Z$. The photon wavelength due to a transition from two energy levels $n$ and $m$ (with $n>m$, emission for transition from $n$ to $m$, and absorption for transition from $m$ to $n$) for an hydrogen-like ion of atomic number $Z$ is given by
@@ -586,14 +611,14 @@ $$\begin{align}\lambda & = \frac{hc}{E_n-E_m} \nonumber \\
 \end{align}$$
 where $\AA=10^{-10}m$ is angstrom. We can notice that for a given lower energy level $m$, the largest wavelength is given by the cloest higher level i.e. $n=m+1$, and as the higher energly level increases, the smallest wavelength (i.e. the most energetic phothon) converges to $911.6\AA\frac{m^2}{Z^2}$.
 
-Conventionally, the emission / absorption spectrum is grouped according to the lower energy levels. For example, the series of wavelengths due to a transition between $n>1$ and $m=1$ are called Lyman series, thoses between $n>2$ and $m=2$ called Balmer series, and Paschen series for $n=3$. The emission / absorption spectrums of the same elements in Fig.6 are shown in Fig.7.
+Conventionally, the emission / absorption spectrum is grouped according to the lower energy levels. For example, the series of wavelengths due to a transition between $n>1$ and $m=1$ are called Lyman series, thoses between $n>2$ and $m=2$ called Balmer series, and Paschen series for $n=3$. The emission / absorption spectrums of the same elements in Fig.8 are shown in Fig.9.
 
 <div align="center">
  <img src="./images/BohrEmissionSpectrum.png" width="600" alt="Centered image">
- <p><em>Figure 7: Emission spectrum of hydrogen-like atom for atomic number equal to 1, 2, 3, 4, 5.</em></p>
+ <p><em>Figure 9: Emission spectrum of hydrogen-like atom for atomic number equal to 1, 2, 3, 4, 5.</em></p>
 </div>
 
-Despite the fact that the emission / absorptin spectrum in Fig.7 only applies to complet ionisation of certain chemical elements, and more complex spectrum should be expected in realistic systems, the idea is however clear that each element has its finger print spectrum on the spectroscopic measurement, and hence by investigating the spectroscopic measurement, one can in principle identify different finger prints and thus the chemical elements existing on the source on which the spectroscopy is performed.
+Despite the fact that the emission / absorptin spectrum in Fig.9 only applies to complet ionisation of certain chemical elements, and more complex spectrum should be expected in realistic systems, the idea is however clear that each element has its finger print spectrum on the spectroscopic measurement, and hence by investigating the spectroscopic measurement, one can in principle identify different finger prints and thus the chemical elements existing on the source on which the spectroscopy is performed.
 
 ## Atomic process
 
